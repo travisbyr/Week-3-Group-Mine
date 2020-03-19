@@ -11,54 +11,62 @@
 </head>
 
 <header>
-    <nav>
-        <ul>
-            <img id="navPic" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Wikipedia-logo-transparent.png"
-                alt="Paris">
 
-            <li id="rightButtons"><a id="buttons" href="#">Register</a></li>
-            <li id="rightButtons"><a id="buttons" href="#">Login</a></li>
-            <li id="rightButtons"><a id="buttons" href="#">Main Page</a></li>
-            <li id="rightButtons"><a id="buttons" href="#">Discussion</a></li>
-            <li id="rightButtons"><a id="buttons" href="#">Read</a></li>
-            <li id="rightButtons"><a id="buttons" href="#">View Source</a></li>
-            <li id="rightButtons"><a id="buttons" href="#">View History</a></li>
-            <li id="rightButtons"><a id="buttons" href="#">All Portals</a></li>
-            <div class="dropdown">
-                <button class="dropbtn">Wikipedia</button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
-        </ul>
-    </nav>
-
+    <div class="side-article-contents">
+        <img id="navPic" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Wikipedia-logo-en-big.png"alt="Paris">
+        <h1 class="contents-header">Home</h1>
+        <input type="text" id="searchbar" placeholder="Search..">
+        <a class="contents-link" href="">Discussion<br /></a>
+        <a class="contents-link" href="">History<br /></a>
+        <a class="contents-link" href="">Read<br /></a>
+        <a class="contents-link" href="">View Source<br /></a>
+        <a class="contents-link" href="">View History<br /></a>
+        <a class="contents-link" href="">Register<br /></a>
+        <a class="contents-link" href="">Login<br /></a>            
+        <h1 class="contents-header">Contents</h1>
+        <a class="contents-link" href="">Main Page<br /></a>
+        <a class="contents-link" href="">Arts<br /></a>
+        <a class="contents-link" href="">Biography<br /></a>
+        <a class="contents-link" href="">Geography<br /></a>
+        <a class="contents-link" href="">History<br /></a>
+        <a class="contents-link" href="">Mathematics<br /></a>
+        <a class="contents-link" href="">Science<br /></a>
+        <a class="contents-link" href="">Society<br /></a>
+        <a class="contents-link" href="">Technology<br /></a>
+        <a class="contents-link" href="">All Portals<br /></a>
+        <h1 class="contents-header">Tools</h1>
+        <a class="contents-link" href="">Related Changes<br/></a>
+        <a class="contents-link" href="">Upload file<br/></a>
+        <a class="contents-link" href="">Special pages<br/></a>
+        <a class="contents-link" href="">Permanent Link<br/></a>
+        <a class="contents-link" href="">Wikidata item<br /><br/></a>
+        <h1 class="contents-header">Other projects</h1>
+        <a class="contents-link" href="">Wikimedia Commons<br/></a>
+        <a class="contents-link" href="">Meta-Wiki<br/></a>
+        <a class="contents-link" href="">Wikispecies<br/></a>
+        <a class="contents-link" href="">Wikibooks<br /></a>
+        <a class="contents-link" href="">Wikidata<br /></a>
+        <a class="contents-link" href="">Wikimania<br/></a>
+        <a class="contents-link" href="">Wikinews<br /></a>
+        <a class="contents-link" href="">Wikiquote<br /></a>
+        <a class="contents-link" href="">Wikisource<br /></a>
+        <a class="contents-link" href="">Wikiversity<br /></a>
+        <a class="contents-link" href="">Wikisvoyage<br /></a>
+        <a class="contents-link" href="">Wiktionary<br/><br/></a>        
+        <div class="contents-footer"></div>
+    </div>
 
 </header>
 
 <body>
-    <div class="side-article-contents">
-        <h1 class="contents-header">Contents</h1>
-        <a class="contents-link" href="">Arts<br /><br /></a>
-        <a class="contents-link" href="">Biography<br /><br /></a>
-        <a class="contents-link" href="">Geography<br /><br /></a>
-        <a class="contents-link" href="">History<br /><br /></a>
-        <a class="contents-link" href="">Mathematics<br /><br /></a>
-        <a class="contents-link" href="">Science<br /><br /></a>
-        <a class="contents-link" href="">Society<br /><br /></a>
-        <a class="contents-link" href="">Technology<br /><br /></a>
-        <a class="contents-link" href="">All Portals<br /><br /></a>
-        <div class="contents-footer"></div>
-    </div>
+   
     <div class="main-content">
-        <div>
-            <h2>From today's featured article</h2>
-            <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/The_Ezana_Stone_%282840202630%29.jpg/110px-The_Ezana_Stone_%282840202630%29.jpg" />
-            <p1>Ezana Stone</p1>
-            <p>
+        <div id="flexbox">
+        <article id="art1">
+            <h2>From today's featured article - Ezana Stone</h2>
+            <div id="flex">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/The_Ezana_Stone_%282840202630%29.jpg/110px-The_Ezana_Stone_%282840202630%29.jpg" />
+            <p class = "left">
                 Ethiopian historiography embodies the ancient, medieval, early modern and modern disciplines of
                 recording the history of Ethiopia. Ethiopian historical writing can be traced back to the Kingdom of
                 Aksum (c. AD 100 – c. 940). The writing of history became
@@ -73,12 +81,12 @@
                 Italo-Ethiopian War.
             </p>
         </div>
-        <div>
-            <h2>In the news</h2>
-            <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Alyssa_Healy_cropped.jpg/120px-Alyssa_Healy_cropped.jpg" />
-            <p1>Alyssa Healy</p1>
-            <p>
+        </article>
+        <article id="art2">
+            <h2>In the news - Alyssa Healy</h2>
+            <div id="flex">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Alyssa_Healy_cropped.jpg/120px-Alyssa_Healy_cropped.jpg" />
+            <p class = "left">
                 The World Health Organization declares the coronavirus outbreak to be a pandemic, while the Italian
                 government implements a national quarantine. Global stock markets suffer their largest single-day
                 decline since the Great Recession. In cricket, the Women's
@@ -86,42 +94,83 @@
                 pictured). Yvonne Farrell and Shelley McNamara win the Pritzker Architecture Prize.
             </p>
         </div>
-        <div>
-            <h2>Did you know ...</h2>
-            <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Conan_Gray_U_Street_Music_Hall_March_2019_1.jpg/120px-Conan_Gray_U_Street_Music_Hall_March_2019_1.jpg" />
-            <p1>Conan Gray</p1>
-            <p>1)that the upcoming debut album Kid Krow by Conan Gray (pictured) grew out of his experiences as a
-                mixed-race child in Texas?
-                <br />2)that the design of the 2018 Melita bullion coins is based on a series of stamps issued almost a
-                century earlier?
-                <br />3)that Charles E. Mills had dual careers in banking and explosives?
-                <br />4)that past eruptions of Cadamosto Seamount dispersed volcanic ash underwater over thousands of
-                square kilometres?
-                <br />5)that in 2019, Japanese voice actress Midori Katō earned a Guinness World Record for having
-                voiced the same character in the anime Sazae-san for 50 years and a day?
-                <br />6)that in the collection Madwoman, Jamaican-American poet Shara McCallum uses both English and
-                Patwa, a creole she heard while growing up but never saw in writing?
-                <br />7)that Estonian general and former Minister of Education Aleksander Jaakson was arrested by NKVD
-                while working on his farm?
-                <br />8)that the American Stock Exchange Building was built to get the New York Curb Exchange off the
-                street?</p>
+        </article>
         </div>
-        <div>
-            <h2>On this day</h2>
-            <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Mahatma_%26_Sarojini_Naidu_1930.JPG/175px-Mahatma_%26_Sarojini_Naidu_1930.JPG" />
-            <p1>Mahatma Gandhi (left) and Sarojini Naidu (right)</p1>
-            <br />March 12
-            <br />1) 1913 – At a ceremony at Kurrajong Hill, Lady Denman, the wife of Governor-General Lord Denman,
-            announced that the future capital of Australia would be named Canberra.
-            <br />2) 1930 – Mahatma Gandhi (pictured with Sarojini Naidu) began the Salt March, a 24-day nonviolent walk
-            to defy the British salt tax in colonial India.
-            <br />3) 1940 – The Moscow Peace Treaty was signed, ending the Winter War between Finland and the Soviet
-            Union.
-            <br />4) 1989 – Tim Berners-Lee submitted a memorandum at CERN with details of an information-management
-            system, the first proposal for what would become the World Wide Web.</p>
+    </div>
+
+
+    <div class="main-content">
+        <div id="flexbox">
+        <article id="art3">
+            <h2>Did you know? - Conan Gray</h2>
+            <div id="flex">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Conan_Gray_U_Street_Music_Hall_March_2019_1.jpg/120px-Conan_Gray_U_Street_Music_Hall_March_2019_1.jpg" />
+            <p class = "left">
+
+                <ul>
+                    <li>...that the upcoming debut album Kid Krow by Conan Gray (pictured) grew out of his experiences as a mixed-race child in Texas?</li>
+                    <li>...that the design of the 2018 Melita bullion coins is based on a series of stamps issued almost a
+                        century earlier?</li>
+                    <li>...that Charles E. Mills had dual careers in banking and explosives?</li>
+                    <li>...that past eruptions of Cadamosto Seamount dispersed volcanic ash underwater over thousands of
+                        square kilometres?</li>
+                    <li>...that in 2019, Japanese voice actress Midori Katō earned a Guinness World Record for having
+                        voiced the same character in the anime Sazae-san for 50 years and a day?</li>
+                    <li>...that in the collection Madwoman, Jamaican-American poet Shara McCallum uses both English and
+                        Patwa, a creole she heard while growing up but never saw in writing?</li>
+                    <li>...that Estonian general and former Minister of Education Aleksander Jaakson was arrested by NKVD
+                        while working on his farm?</li>
+                    <li>...that the American Stock Exchange Building was built to get the New York Curb Exchange off the
+                        street?</li>
+                </ul>
+            </p>
+            </div>
+            </article>
+
+        <article id="art4">
+            <h2>On this day - Mahatma Gandhi (left) and Sarojini Naidu (right)</h2>
+            <div id="flex">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Mahatma_%26_Sarojini_Naidu_1930.JPG/175px-Mahatma_%26_Sarojini_Naidu_1930.JPG" />
+            <p class = "left"></p>
+            <ul>
+                <li>1913 – At a ceremony at Kurrajong Hill, Lady Denman, the wife of Governor-General Lord Denman,
+                    announced that the future capital of Australia would be named Canberra.</li>
+                <li>1930 – Mahatma Gandhi (pictured with Sarojini Naidu) began the Salt March, a 24-day nonviolent walk
+                    to defy the British salt tax in colonial India.</li>
+                <li>1940 – The Moscow Peace Treaty was signed, ending the Winter War between Finland and the Soviet
+                    Union.</li>
+                <li> 1989 – Tim Berners-Lee submitted a memorandum at CERN with details of an information-management
+            </ul>
+            </p>
         </div>
+        </article>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div id="flexbox">
+        <article id="art5">
+            <h2>Today's featured video</h2>
+            <div id="flex">
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+            </article>
+        <article id="art6">
+            <h2>Today's featured Quote</h2>
+            <div id="flex">
+            <h1 id="quote">"The greatest glory in living lies not in never falling, but in rising every time we fall." <br></br>- Nelson Mandela</h1>
+            </div>
+        </article>
+        </div>
+        <div id="flexbox">
+        <article id="art6">
+            <h2>Today's featured photo</h2>
+            <div id="column">
+            <img id="bigImg"src="https://www.dw.com/image/49984000_403.jpg" />
+            <p class = "left">The Yemeni Civil War is an ongoing conflict that began in 2015 between two factions: the Abdrabbuh Mansur Hadi-led Yemeni government and the Houthi armed movement, along with their supporters and allies. Both claim to constitute the official government of Yemen.<br></br>Houthi forces currently control the capital Sanaʽa, allied with forces loyal to the former president Ali Abdullah Saleh, have clashed with the forces loyal to Hadi who are based in Aden. Al-Qaeda in the Arabian Peninsula (AQAP) and the Islamic State of Iraq and the Levant have also carried out attacks, with AQAP controlling swathes of territory in the hinterlands, and along stretches of the coast. Concurrently, the Hadi government is in conflict with UAE forces as a result of UAE military measures such as the United Arab Emirates takeover of Socotra and UAE-backed STC takeover of Aden.<br></br>On 21 March 2015, after taking over Sanaʽa and the Yemeni government, the Houthi-led Supreme Revolutionary Committee declared a general mobilization to overthrow Hadi and expand their control by driving into southern provinces.[164] The Houthi offensive, allied with military forces loyal to Saleh, began fighting the next day in Lahij Governorate. By 25 March, Lahij fell to the Houthis and they reached the outskirts of Aden, the seat of power for Hadi's government.[165] Hadi fled the country the same day</p>
+        </div>
+    </div>
     </div>
 </body>
 
@@ -134,7 +183,7 @@
         <a href="#Contact">Contact Us</a>
         <a href="#Developers">Developers</a>
         <a href="#Stats">Statistics</a>
-        <a href="#Cookies">Cookies</a>
+        <a href="#Cookies">Copyright</a>
         <a href="#Mobile-View">Mobile View</a>
     </div>
 </footer>

@@ -1,170 +1,269 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
 body {
-    margin: 0;
+  margin: 0;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #f6f6f6;
-    padding-bottom: 2em;
-}
-
-nav ul li#rightButtons {
-    float: right;
-}
-
-nav ul li#leftButtons {
-    float: left;
-}
-
-li a#buttons {
-    display: block;
-    text-align: center;
-    padding: 1.3vw 16px;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 1.2vw;
-    color: black;
+p {
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  word-spacing: 0.3px;
 }
 
 li a#buttons:hover {
-    color: red;
+  color: red;
 }
 
 img#navPic {
-    margin-top: 0;
-    padding: 0;
-    padding-top: 0.3em;
-    width: 2vw;
-    margin-left: 2.4vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .dropbtn {
-    background-color: #f6f6f6;
-    color: #000;
-    padding-left: 1.1vw;
-    font-size: 1.1vw;
-    border: none;
+  background-color: #f6f6f6;
+  color: #000;
+  padding-left: 1.1vw;
+  font-size: 1.1vw;
+  border: none;
 }
 
 .dropdown {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 0;
-    position: absolute;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  position: absolute;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: red;
-    color: #fff;
+  background-color: red;
+  color: #fff;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .dropdown:hover .dropbtn {
-    color: red;
+  color: red;
+}
+
+article {
+  background-color: #f5fffa;
+  padding: 0.5em;
+  border: 1px solid #cef2e0;
+  width: 48%;
+  margin: 3px;
 }
 
 .main-content {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: 16em;
+}
+
+div#flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div#flex {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0.8em;
+    font-family: "PT Sans", sans-serif;
+}
+
+ul li {
+    padding-top: 0.5em;
+}
+
+article#art7 {
+
+}
+
+div#flex img {
+  height: 100%;
+  padding: 0 0 0 0.8em;
+}
+
+div#column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+  }
+
+  img#bigImg {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1.5em;
+  }
+
+.left {
+  padding-left: 1em;
 }
 
 .main-content h2 {
-    background-color: aquamarine;
+  border: 1px solid #a3b4b2;
+  padding: 3px;
+  text-align: left;
+  font-weight: normal;
+  padding-left: 0.5em;
+  font-size: 1.3em;
+  background: #cef2e0;
+  margin-top: 0;
 }
 
 .side-article-contents {
-    position: absolute;
-    right: 15px;
-    margin-top: 50px;
-    width: 175px;
-    height: 525px;
-    padding: 15px;
-    padding-left: 10px;
-    border: 2px solid darkgray;
-    border-style: ridge;
-    border-radius: 25px;
-    background-color: white;
+  position: absolute;
+  padding: 1.5em;
+  margin-left: 1em;
+  margin-top: 1em;
+  width: 175px;
+  border: 2px solid darkgray;
+  border-style: ridge;
+  border-radius: 25px;
+  background-color: #f6f6f6;
+}
+
+article#art1 {
+  margin-top: 1em;
+}
+
+article#art2 {
+  margin-top: 1em;
+  background-color: #f5faff;
+}
+
+article#art4 {
+  background-color: #f5faff;
+}
+
+article#art6 {
+  background-color: #f5faff;
+}
+
+article#art2 h2 {
+  background-color: #cedff2;
+}
+
+article#art4 h2 {
+  background-color: #cedff2;
+}
+
+article#art6 h2 {
+  background-color: #cedff2;
+}
+
+article#art5 {
+  margin-bottom: 1em;
+}
+
+article#art6 {
+  margin-bottom: 1em;
+}
+
+input#searchbar {
+    margin-top: 0.3em;
+  padding: 0.3em;
+  margin-bottom: 1em;
 }
 
 .contents-header {
-    color: black;
-    font-size: 2em;
-    text-align: left;
-    padding: 5px;
-    border-top: 2px solid darkgray;
-    border-bottom: 2px solid darkgray;
+  color: black;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 5px;
+  border-top: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.contents-link:hover {
+  text-decoration: underline;
 }
 
 .contents-link {
-    color: darkblue;
-    font-size: 1em;
-    text-align: left;
+  color: #0645ad;
+  font-size: 1em;
+  text-align: left;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
 }
 
 .contents-footer {
-    border-top: 2px solid darkgray;
+  border-top: 2px solid darkgray;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .navbar {
-    background-color: rgb(36, 36, 36);
-    overflow: hidden;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  padding-top: 1em;
+  margin-top: 1e0.8;
+  border-top: 2px solid #f2f2f2;
+  box-shadow: 0px -3px 10px 0px #f6f6f6;
+  
 }
 
 .navbar a {
-    float: left;
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    width:11%;
-    padding-top: 15px;
-    text-decoration: none;
+  padding-bottom: 1em;
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  width: 11%;
+  padding-top: 0px;
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
 }
 
 .navbar a:hover {
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
+  font-weight: 1000;
 }
 
-.navbar a.active {
-    background-color: rgb(0, 0, 0);
-    color: white;
+iframe {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.navbar .hover {
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
+h1#quote {
+    font-size: 2.5em;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
 }
